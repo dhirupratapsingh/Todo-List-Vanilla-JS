@@ -1,0 +1,29 @@
+
+<html>
+  <head>
+    <title>Todo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="main">
+    <h1>MY TODO APP</h1>
+    <div id="container">
+      <div class="search">
+      <span> 
+        <i id ="checklist" class="fa-solid fa-list-check"></i>
+        <input placeholder="Enter the task to Be Added in List" class="add-task" id="add"/>
+      </span>
+
+      <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+    </div>
+    <div id="list-container">
+      <ul id="list">
+      </ul>
+    </div>
+    </div>
+  </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
